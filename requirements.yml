@@ -4,4 +4,5 @@ collections:
   - containers.podman
   - community.crypto
   - community.general
+    version: '<5.0.0'
   - community.libvirt
