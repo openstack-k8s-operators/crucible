@@ -50,6 +50,16 @@ os_images:
     url: https://mirror.openshift.com/pub/openshift-v4/aarch64/dependencies/rhcos/4.10/4.10.16/rhcos-4.10.16-aarch64-live.aarch64.iso
     rootfs_url: https://mirror.openshift.com/pub/openshift-v4/aarch64/dependencies/rhcos/4.10/4.10.16/rhcos-4.10.16-aarch64-live-rootfs.aarch64.img
     version: 410.84.202205191234-0
+  - openshift_version: '4.11'
+    cpu_architecture: x86_64
+    url: https://mirror.openshift.com/pub/openshift-v4/x86_64/dependencies/rhcos/4.11/4.11.9/rhcos-live.x86_64.iso
+    rootfs_url: https://mirror.openshift.com/pub/openshift-v4/x86_64/dependencies/rhcos/4.11/4.11.9/rhcos-live-rootfs.x86_64.img
+    version: 411.86.202210072320-0
+  - openshift_version: '4.12'
+    cpu_architecture: x86_64
+    url: https://mirror.openshift.com/pub/openshift-v4/x86_64/dependencies/rhcos/4.12/4.12.0/rhcos-live.x86_64.iso
+    rootfs_url: https://mirror.openshift.com/pub/openshift-v4/x86_64/dependencies/rhcos/4.12/4.12.0/rhcos-live-rootfs.x86_64.img
+    version: 412.86.202301061548-0
 
 release_images:
   - openshift_version: '4.6'
@@ -77,6 +87,14 @@ release_images:
     cpu_architecture: arm64
     url: quay.io/openshift-release-dev/ocp-release:4.10.16-aarch64
     version: 4.10.16
+  - openshift_version: '4.11'
+    cpu_architecture: x86_64
+    url: quay.io/openshift-release-dev/ocp-release:4.11.9-x86_64
+    version: 4.11.9
+  - openshift_version: '4.12'
+    cpu_architecture: x86_64
+    url: quay.io/openshift-release-dev/ocp-release:4.12.0-x86_64
+    version: 4.12.0
 
 assisted_service_image_repo_url: quay.io/edge-infrastructure
 
