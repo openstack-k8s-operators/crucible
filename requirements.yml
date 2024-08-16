@@ -1,4 +1,5 @@
 ---
 collections:
-  - redhatci.ocp
-
+  - name: https://github.com/openstack-k8s-operators/ansible-collection-redhatci-ocp.git
+    type: git
+    version: ocp_4_16
